@@ -11,7 +11,7 @@ The name says it all. A thin starter/boilerplate with all of the configs I like,
 * parcel bundler
 
 ### Getting Started
-* Clone this repo
+* Run `npx sssrpbp --name=<name of your app>` (or copy the files from `template/default` in this repo)
 * `yarn`
 * `yarn start`
 * To build - `yarn build`

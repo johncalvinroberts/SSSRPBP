@@ -1,8 +1,9 @@
-node_modules
-.DS_store
-# builds
-build
+.cache
+.parcel-cache
+
 dist
+build
+node_modules
 
 # misc
 .DS_Store

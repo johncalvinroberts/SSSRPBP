@@ -1,15 +1,13 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "es6": true
   },
-  "extends": ["wcl-frontend"],
-  "rules": {
-    "react/button-has-type": "off",
-    "import/no-cycle": "off",
-    "react/jsx-props-no-spreading": "off",
-    "no-case-declarations": "off",
-    "import/extensions": "off",
-    "no-shadow": "off",
-    "no-alert": "error"
-  }
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },  
+  "extends": "eslint:recommended"
 }

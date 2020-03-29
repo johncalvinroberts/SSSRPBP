@@ -1,21 +1,20 @@
 {
-  "name": "SSSRPBP",
+  "name": "sssrpbp",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "git@github.com:johncalvinroberts/SSSRPBP.git",
+  "author": "John Roberts <john.calvin.roberts@gmail.com>",
+  "engines": {
+    "node": ">=8"
+  },
   "license": "MIT",
-  "scripts": {
-    "build": "parcel build src/index.html",
-    "start": "parcel serve src/index.html"
-  },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^6.0.0-alpha.2"
-  },
-  "devDependencies": {
+    "chalk": "^3.0.0",
     "eslint": "^6.8.0",
-    "eslint-config-wcl-frontend": "^1.0.11",
-    "parcel": "latest",
-    "prettier": "^2.0.2"
+    "globby": "^11.0.0",
+    "make-dir": "^3.0.2",
+    "ora": "^4.0.3",
+    "p-each-series": "^2.1.0",
+    "yargs": "^15.3.1"
   }
 }
