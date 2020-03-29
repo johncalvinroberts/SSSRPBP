@@ -1,0 +1,21 @@
+{
+  "name": "SSSRPBP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel serve src/index.html"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-wcl-frontend": "^1.0.11",
+    "parcel": "latest",
+    "prettier": "^2.0.2"
+  }
+}
