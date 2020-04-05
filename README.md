@@ -1,14 +1,16 @@
 # SSSRPBP
-**S**uper **S**imple **S**tupid **R**eact **P**rototyping **B**oiler**p**late
+**S**uper **S**imple **S**tatic **R**eact **P**rototyping **B**oiler**p**late
 
-The name says it all. A thin starter/boilerplate with all of the configs I like, to start coding React stuff without having to spend time on config. Very few dependencies, just a solid dev workflow foundation, meant to be deconstructible for when an app gets more complex.
+A thin starter/boilerplate with all of the configs I like, to start coding React stuff quickly. Very few dependencies, just a solid dev workflow foundation, meant to be deconstructible when an app gets more complex.
+
+Statically generated for super fast TTI and SEO. Sometimes, [Gatsby](https://github.com/gatsbyjs/gatsby) is a tad bit overkill when you want something quick and simple.
 
 ### Dependencies
 * react & react-dom
-* react-router-dom (v6, in alpha stage at the time of writing this)
 * eslint
 * prettier
-* parcel bundler
+* [parcel bundler](https://github.com/parcel-bundler/parcel)
+* [react-snap](https://github.com/stereobooster/react-snap) for static prerendering
 
 ### Getting Started
 * Run `npx sssrpbp --name=<name of your app>` (or copy the files from `template/default` in this repo)
