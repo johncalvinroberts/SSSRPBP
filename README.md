@@ -12,8 +12,12 @@ Statically generated for super fast TTI and SEO. Sometimes, [Gatsby](https://git
 * [parcel bundler](https://github.com/parcel-bundler/parcel)
 * [react-snap](https://github.com/stereobooster/react-snap) for static prerendering
 
+### Templates
+* **default** - react
+* **preact** - same but with preact
+
 ### Getting Started
-* Run `npx sssrpbp --name=<name of your app>` (or copy the files from `template/default` in this repo)
+* Run `npx sssrpbp --name=<name of your app> --template=<name of template>` (or copy the files from `template/default` in this repo)
 * `yarn`
 * `yarn start`
 * To build - `yarn build`
