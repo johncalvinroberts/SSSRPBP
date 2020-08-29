@@ -23,4 +23,7 @@ Statically generated for super fast TTI and SEO. Sometimes, [Gatsby](https://git
 * To build - `yarn build`
 * Start writing code of questionable integrity.
 
+**Fun Fact**: This starter has a large dependency `puppeteer` included because of the `react-snap` dependency. If you are experiencing long install times, try running `export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true` before `yarn install`.
+
+
 **Note**: This starter is just meant for __prototyping__, if you have actual production-facing business requirements to address, you should probably go for a different solution.
