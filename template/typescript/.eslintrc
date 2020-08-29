@@ -1,0 +1,50 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "settings": {
+    "react": { "version": "detect" }
+  },
+  "rules": {
+    "import/no-cycle": "off",
+    "import/order": "error",
+    "react/jsx-props-no-spreading": "off",
+    "no-case-declarations": "off",
+    "import/extensions": "off",
+    "no-alert": "error",
+    "react/button-has-type": "off",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": false
+      }
+    ],
+    "react/prop-types": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
