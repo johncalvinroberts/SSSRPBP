@@ -1,4 +1,4 @@
-# SSSRPBP
+# sssrpbp
 **S**uper **S**imple **S**tatic **R**eact **P**rototyping **B**oiler**p**late
 
 A thin starter/boilerplate with all of the configs I like, to start coding React stuff quickly. Very few dependencies, just a solid dev workflow foundation, meant to be deconstructible when an app gets more complex.

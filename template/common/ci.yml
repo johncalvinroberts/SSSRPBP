@@ -1,0 +1,29 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    name: Lint, check for errors, and test build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Use Node 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
+
+      - name: Check for lint errors
+        run: yarn flint
+
+      - name: Type Check
+        run: yarn type-check
+
+      - name: Ensure can build successfully
+        run: yarn build
+
+      - name: Check for clean status
+        run: sh scripts/ensure-git-clean.sh
