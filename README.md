@@ -13,9 +13,9 @@ Statically generated for super fast TTI and SEO. Sometimes, [Gatsby](https://git
 * [react-snap](https://github.com/stereobooster/react-snap) for static prerendering
 
 ### Templates
-* **default** - react
-* **preact** - same but with preact
-* **typescript** - same but setup with Typescript
+* **default** - React
+* **preact** - same, but with Preact, and parcel instead of vite.
+* **typescript** - Same as `React` but setup with Typescript.
 
 ### Getting Started
 * Run `npx sssrpbp --name=<name of your app> --template=<name of template>` (or copy the files from `template/default` in this repo)
