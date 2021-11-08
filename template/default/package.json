@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "postbuild": "react-snap",
     "flint": "eslint . --ext js --fix && prettier --write ."
   },
